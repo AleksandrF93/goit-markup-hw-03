@@ -165,6 +165,8 @@ img {
 /*HERO*/
 
 .hero {
+  padding-top: 200px;
+  padding-bottom: 200px;
   background-color: #2f303a;
   text-align: center;
   margin-bottom: 0;
@@ -272,7 +274,7 @@ img {
 }
 
 .profession {
-  margin-bottom: 30px;
+  margin-bottom: 0;
   margin-top: 10px;
 
   font-weight: 400;
@@ -283,7 +285,7 @@ img {
 }
 
 .team-hero {
-  margin-top: 30px;
+  margin-top: 0;
   margin-bottom: 0;
   font-weight: 500;
   color: var(--title-text-color);
@@ -293,8 +295,15 @@ img {
   text-align: center;
 }
 
+.team-name {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
 /*FOOTER*/
 footer {
+  padding-top: 60px;
+  padding-bottom: 60px;
   background-color: #2f303a;
 }
 
@@ -303,6 +312,8 @@ footer {
 }
 
 .adress {
+  margin-top: 20px;
+  margin-bottom: 0;
   color: var(--primery-bcg-color);
   font-style: normal;
   font-weight: 400;
@@ -311,7 +322,18 @@ footer {
   letter-spacing: 0.03em;
 }
 
+.adress-link {
+  display: flex;
+  flex-direction: column;
+}
+
+.secondary-connect:hover,
+.secondary-connect:focus {
+  color: var(--accent-color);
+}
+
 .secondary-connect {
+  margin-top: 9px;
   color: rgba(255, 255, 255, 0.6);
   font-family: Roboto, sans-serif;
   font-style: normal;
